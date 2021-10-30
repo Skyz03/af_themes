@@ -31,3 +31,38 @@
     }
   }
 }
+
+.background_img_one::before {
+  content: "url(/images/features/illustration/speed_back.png)";
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center left;
+  z-index: 1;
+}
+
+.background_img_two {
+  background-image: url(/images/features/illustration/prototyping.png);
+}
+
+.background_img_three {
+  background-image: url(/images/features/illustration/vector_back.png);
+}
+
+.text {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.fast {
+  color: #f55767;
+}
+
+.prototype {
+  color: #2563ff;
+}
+
+.vector {
+  color: #40975f;
+}
