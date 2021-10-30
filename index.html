@@ -196,7 +196,7 @@
         <!-- Start the company cotent info  -->
 
 
-        <div class="col-12 col-sm-6 col-md-6 col-lg-12 mt-5 mb-4 mx-auto">
+        <div class="col-md-6 col-lg-12 mt-5 mb-4 mx-auto">
           <ul class="list-inline company-list d-flex justify-content-center">
             <li><a href="#services">Home</a></li>
             <li><a href="#testimonials">Key Features</a></li>
@@ -227,37 +227,22 @@
 
           <div class="col-lg-6 col-md-6 pb-5">
             <div class="footer-bottom__copyright">
-              Copyright &COPY; <a href="https://github.com/Skyz03">Skyz03 2021</a> | All rights reserved
+              Copyright &COPY; <a href="https://github.com/Skyz03">Skyz03 <span id="date"></span> </a> | All rights
+              reserved
             </div>
           </div>
-
-
-
         </div>
       </div>
     </div>
   </footer>
 
 
-  <!-- Back To top  -->
-  <a href="#" class="shadow btn-primary rounded-circle back-to-top">
-    <i class="fas fa-chevron-up"></i>
-  </a>
-
-
-
-  <script src="/assets/vendors/js/glightbox.min.js"></script>
-
-  <script type="text/javascript">
-    const lightbox = GLightbox({
-      'href': 'https://www.youtube.com/watch?v=VSceuiPBpxY',
-      'type': 'video',
-      'source': 'youtube', //vimeo, youtube or local
-      'width': 900,
-      'autoPlayVideos': true,
-    });
-  </script>
   <script src="assets/js/bootstrap.bundle.js"></script>
+  <script>
+    let date = new Date().getFullYear();
+    document.getElementById("date").innerHTML = date;
+  </script>
+
 </body>
 
 </html>

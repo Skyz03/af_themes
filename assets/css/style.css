@@ -11550,7 +11550,7 @@ textarea.form-control-lg {
 }
 
 .footer-sm a {
-  color: #fff;
+  color: #6c757d;
 }
 .footer-sm a i {
   font-size: 1rem;
@@ -11567,23 +11567,40 @@ textarea.form-control-lg {
 }
 
 .company-list {
-  display: block;
-  list-style-type: none;
-  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.company-list li {
-  margin-bottom: 0.5rem;
+.company-list a {
   text-decoration: none;
-}
-.company-list li a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 1rem;
+  margin: 1rem 0;
   font-weight: 500;
   letter-spacing: 1px;
 }
-.company-list li a:hover {
+.company-list a:hover {
   font-weight: 700;
+}
+@media (min-width: 768px) {
+  .company-list {
+    display: block;
+    list-style-type: none;
+    position: relative;
+    flex-direction: row;
+  }
+  .company-list li {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+  }
+  .company-list li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .company-list li a:hover {
+    font-weight: 700;
+  }
 }
 
 .footer-bottom__copyright {
