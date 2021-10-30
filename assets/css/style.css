@@ -11131,9 +11131,9 @@ textarea.form-control-lg {
 }
 .btn-rounded {
   position: relative;
-  padding: 0.7rem 1.5rem 0.9rem 1.5rem;
-  font-weight: 700;
-  margin: 0;
+  padding: 0.7rem 2rem 0.9rem 2rem;
+  font-weight: 600;
+  margin-left: 2rem;
   border: 0;
   background-color: #3300ff;
   color: #fff;
@@ -11231,15 +11231,16 @@ textarea.form-control-lg {
 }
 
 .menu {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(209, 34, 227, 0.95));
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
 }
 .menu li {
   padding: 0 0.7rem;
 }
 .menu li a {
-  color: #fff !important;
+  color: #000 !important;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .intro-section {
