@@ -13,6 +13,12 @@
   background-color: $blue-btn;
   color: $white;
 
+  &:hover {
+    background-color: $white;
+    color: $blue-btn;
+    border: 1px solid $blue-btn;
+  }
+
   span {
     position: absolute;
     background-color: $primary;
@@ -42,6 +48,12 @@
   border: 0;
   background-color: $white;
   color: $blue-btn;
+  border: 1px solid $blue-btn;
+
+  &:hover {
+    color: $white;
+    background-color: $blue-btn;
+  }
 
   span {
     position: absolute;

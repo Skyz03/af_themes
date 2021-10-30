@@ -59,18 +59,12 @@
   }
 }
 
-.background_img_one::before {
-  content: "url(/images/features/illustration/speed_back.png)";
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-position: center left;
-  z-index: 1;
+.background_img_one {
+  background-image: url(/images/features/illustration/speed_back.png);
 }
 
 .background_img_two {
-  background-image: url(/images/features/illustration/prototyping.png);
+  background-image: url(/images/features/illustration/prototype_back.png);
 }
 
 .background_img_three {
