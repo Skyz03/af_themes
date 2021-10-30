@@ -11137,7 +11137,7 @@ textarea.form-control-lg {
   background-color: #3300ff;
   color: #fff;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .btn-rounded {
     display: none;
   }
@@ -11281,12 +11281,24 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.intro-section .hero-section {
+  flex-direction: column-reverse;
+}
+@media (min-width: 576px) {
+  .intro-section .hero-section {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
+.intros {
+  text-align: center;
+}
 .intros .one_app {
-  margin-bottom: 0;
+  margin: 0 auto;
   background-color: #e2eaed;
   border-radius: 15px;
-  width: 50%;
+  width: 68%;
 }
 .intros .one_app .check-icon {
   position: relative;
@@ -11298,12 +11310,30 @@ textarea.form-control-lg {
   margin-right: 1rem;
   padding: 2px;
 }
-.intros .video-box {
-  position: relative;
-}
-.intros .video-box a span i {
-  font-size: 6rem;
-  color: #d122e3;
+@media (min-width: 576px) {
+  .intros {
+    text-align: left;
+  }
+  .intros .one_app {
+    width: 50%;
+    margin: 0;
+  }
+  .intros .one_app .check-icon {
+    position: relative;
+    color: #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    padding: 2px;
+  }
+  .intros .img-box {
+    position: relative;
+  }
+  .intros .img-box a span i {
+    font-size: 6rem;
+    color: #d122e3;
+  }
 }
 
 .border-animation {
