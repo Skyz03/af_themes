@@ -41,7 +41,7 @@
       padding: 2px;
     }
   }
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(lg) {
     text-align: left;
     .one_app {
       width: 50%;

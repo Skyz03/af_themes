@@ -3,29 +3,56 @@
 .feature-section {
   background-image: url(/images/features/background.png);
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: top center;
 
-  .features {
+  .features-content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     .display-3 {
       margin: 1rem 0;
       font-family: "Poppins", sans-serif;
 
       &--intro {
-        font-size: 3rem;
+        font-size: 2rem;
         display: inline-block;
         font-weight: 600;
         font-family: "Poppins", sans-serif;
       }
 
       &--description {
-        font-size: 0.7rem;
+        font-size: 1rem;
         display: block;
-        margin-top: 0;
+        margin-top: 1rem;
         text-transform: none;
 
         @include media-breakpoint-up(lg) {
           font-size: 1rem;
           display: inline-block;
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-position: bottom left;
+
+    .features-content {
+      text-align: left;
+      .display-3 {
+        margin: 1rem 0;
+        font-family: "Poppins", sans-serif;
+
+        &--intro {
+          font-size: 3rem;
+          display: inline-block;
+          font-weight: 600;
+          font-family: "Poppins", sans-serif;
+        }
+
+        &--description {
+          font-size: 1.2rem;
+          margin-top: 0;
         }
       }
     }
