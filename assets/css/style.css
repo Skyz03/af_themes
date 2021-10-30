@@ -11481,42 +11481,32 @@ textarea.form-control-lg {
   transition-property: all;
 }
 
-.get-started {
-  padding: 4rem 0;
-  background-color: #e9ecef;
+.feature-section {
+  background-image: url(/images/features/background.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
 }
-
-.cta-info {
-  padding: 3rem;
+.feature-section .features .display-3 {
   margin: 1rem 0;
+  font-family: "Poppins", sans-serif;
 }
-.cta-info__list {
-  position: relative;
-  list-style: none;
-  display: block;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  margin-bottom: 0.7rem;
-}
-.cta-info__list li::before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f00c";
+.feature-section .features .display-3--intro {
+  font-size: 3rem;
+  display: inline-block;
   font-weight: 600;
-  margin-right: 0.5rem;
-  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
 }
-
-.form {
-  padding: 3rem;
+.feature-section .features .display-3--description {
+  font-size: 0.7rem;
+  display: block;
+  margin-top: 0;
+  text-transform: none;
 }
-.form button {
-  border: none;
-  color: #fff;
-}
-.form button a {
-  color: #fff;
-  text-decoration: none;
-  text-transform: capitalize;
+@media (min-width: 992px) {
+  .feature-section .features .display-3--description {
+    font-size: 1rem;
+    display: inline-block;
+  }
 }
 
 .footer {

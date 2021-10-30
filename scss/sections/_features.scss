@@ -1,0 +1,33 @@
+@use "../custom" as *;
+
+.feature-section {
+  background-image: url(/images/features/background.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+
+  .features {
+    .display-3 {
+      margin: 1rem 0;
+      font-family: "Poppins", sans-serif;
+
+      &--intro {
+        font-size: 3rem;
+        display: inline-block;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+      }
+
+      &--description {
+        font-size: 0.7rem;
+        display: block;
+        margin-top: 0;
+        text-transform: none;
+
+        @include media-breakpoint-up(lg) {
+          font-size: 1rem;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
